@@ -357,3 +357,21 @@ body {
 // .thecard{
 // 	color: ;
 // }
+
+.modal {
+	justify-content: center !important;
+	margin: 0;
+	hr {
+		color: grey;
+	}
+
+	align-content: center !important;
+	align-items: centers;
+	.modal-dialog {
+		margin: 0;
+		position: relative;
+		width: auto;
+		width: 80vw !important;
+		/* pointer-events: none; */
+	}
+}

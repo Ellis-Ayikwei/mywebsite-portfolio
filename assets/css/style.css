@@ -12284,4 +12284,21 @@ body {
   background: repeating-radial-gradient(circle farthest-corner at center center, #aaccd6 0%, #89c9d6 50%, #62acd6 100%);
 }
 
+.modal {
+  justify-content: center !important;
+  margin: 0;
+  align-content: center !important;
+  align-items: centers;
+}
+.modal hr {
+  color: grey;
+}
+.modal .modal-dialog {
+  margin: 0;
+  position: relative;
+  width: auto;
+  width: 80vw !important;
+  /* pointer-events: none; */
+}
+
 /*# sourceMappingURL=style.css.map */
