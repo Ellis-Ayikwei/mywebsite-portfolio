@@ -1116,15 +1116,15 @@
 				var name = document.getElementById("name").value;
 				var email = document.getElementById("email").value;
 				var subject =
-					document.getElementById("subject").value + " - From My Website";
-				var message = document.getElementById("message").value;
+					 "From My Website";
+				var message = `from: ${email}` + " phone : " +`<br>` + document.getElementById("phone").value + `<br>` +  document.getElementById("message").value;
 
 				Email.send({
-					Host: "smtp.gmail.com",
+					Host: "smtp.elasticemail.com",
 					Username: "ellisarmahayikwei@gmail.com",
-					Password: "@Monique123", // Your email password
-					To: "ellisarmahayikwei@gmail.com",
-					From: email,
+					Password: "A8A69454B519AFF097DD14AB4FD2493C6102", // Your email password
+					To: "ellisyou59@gmail.com",
+					From: "ellisarmahayikwei@gmail.com",
 					Subject: subject,
 					Body: message,
 				}).then((message) => alert(message));
